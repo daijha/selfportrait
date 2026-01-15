@@ -1,5 +1,6 @@
 body{
-    color:green;
+color:green;
+background-color: rgb(22, 22, 22);
 width:95vw;
 height:95vh;
 border:1px solid green;
@@ -10,16 +11,25 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 }
+
+img{
+   /* border:1px solid palevioletred; */
+}
 .picbox{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:16%;
     height:100%;
-    flex-shrink: 0; 
+    display: flex;
+    justify-content: center;
+    border-radius: 80px;
 }
 .mebox{
        border: 1px solid red;
     width:24%;
     height:100%;
+    display: flex;
+    justify-content:center ;
+    background-color: pink;
 }
 .mecontainer{
        border:1px solid green;
@@ -41,6 +51,24 @@ justify-content: center;
     height:30%;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: auto;  
+}
+.cloud{
+    background-image:radial-gradient(white, rgb(45, 27, 88),black);
+}
+.music{
+    background-color: indigo;
+} 
+.tea{
+    background-color: rgb(70, 19, 19);
+}
+.nature{
+    background-color: blue;
     
+}
+.laptop{
+    background-color: black;
+}
+.book{
+    background-color: rgb(228, 228, 65);
 }
